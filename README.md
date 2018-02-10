@@ -9,12 +9,13 @@ The requests are limited to 5000 requests per day (free api key).
 
 ### Parameters
 * -h, --help: prints help
-* 
+* -k, --key: your opencellid api-key
+  Format: id<int>, required: yes.
 * -p, --position: coordinates of position in center of ara. 
-  Format: lat<float>,lon<float>
+  Format: lat<float>,lon<float>, required: yes.
 * -a, --area: size of the areai in km². This is limited to 400,000 ft² by 
   opencellid.
-  Format: area<float>
+  Format: area<float>, required: no, default: 0.1 km².
 
 ### Example
 
